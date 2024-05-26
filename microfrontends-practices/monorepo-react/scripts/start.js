@@ -3,10 +3,10 @@ const prompts = require('prompts');
 prompts.override(require('yargs').argv);
 
 const apps = {
-    clients: 9001,
-    bills: 9002,
-    menu: 9003,
-    products: 9004
+    clients: 5001,
+    bills: 5002,
+    menu: 5003,
+    products: 5004
 };
 
 (async () => {

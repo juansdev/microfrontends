@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microfrontends-practices/monorepo-react/packages/bills" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microfrontends-practices/monorepo-react/packages/clients" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microfrontends-practices/monorepo-react/packages/menu" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microfrontends-practices/monorepo-react/packages/products" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microfrontends-practices/monorepo-react/packages/root-config" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/microfrontends-practices/monorepo-react/packages/styleguide" vcs="Git" />
+    <mapping directory="" vcs="Git" />
   </component>
 </project>
