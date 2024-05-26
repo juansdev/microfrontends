@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MicroFrontend Root</title>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/amd.js"></script>
+    <script type="systemjs-importmap">
+        {
+          "imports": {
+            "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@6.0.1/lib/es5/system/single-spa.min.js",
+            "root-config": "http://localhost:4000/main.js",
+            "appMicroFrontendJavascript": "http://localhost:4001/main.js",
+            "appMicroFrontendReact": "http://localhost:4002/main.js"
+          }
+        }
+    </script>
+</head>
+<body>
+    <div id="single-spa-application:appMicroFrontendReact"></div>
+    <div id="appMicroFrontendRoot"></div>
+    <script>
+        System.import("root-config");
+    </script>
+</body>
+</html>
