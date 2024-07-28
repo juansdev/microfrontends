@@ -1,5 +1,4 @@
-<p align="center">[README.md](..%2Fpacagroup.Ecommerce%2FREADME.md)
-[README-EN.md](..%2Fpacagroup.Ecommerce%2FREADME-EN.md)
+<p align="center">
   <img src="https://simpleicons.org/icons/react.svg" style="filter: invert(1)" width="100" alt="project-logo">
 </p>
 <p align="center">
